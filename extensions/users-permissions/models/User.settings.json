@@ -70,6 +70,17 @@
     "groups": {
       "via": "users_permissions_users",
       "collection": "group"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "middleName": {
+      "type": "string"
+    },
+    "surname": {
+      "type": "string",
+      "required": true
     }
   }
 }

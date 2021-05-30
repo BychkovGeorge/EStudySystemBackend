@@ -13,9 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "users_permissions_users": {
+      "via": "groups",
       "plugin": "users-permissions",
       "collection": "user",
-      "via": "groups",
       "dominant": true
     },
     "name": {
