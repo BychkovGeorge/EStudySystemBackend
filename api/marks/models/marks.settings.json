@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "marks",
+  "info": {
+    "name": "marks",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "markList": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "group": {
+      "model": "group",
+      "via": "marks"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
