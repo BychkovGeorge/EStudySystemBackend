@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "timetables",
+  "info": {
+    "name": "timetable"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "timetable": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "name": {
+      "type": "string"
+    },
+    "group": {
+      "model": "group",
+      "via": "timetables"
+    }
+  }
+}

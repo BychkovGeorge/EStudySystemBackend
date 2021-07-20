@@ -25,6 +25,14 @@
     "marks": {
       "via": "group",
       "collection": "marks"
+    },
+    "timetables": {
+      "via": "group",
+      "collection": "timetable"
+    },
+    "tasks": {
+      "via": "group",
+      "collection": "tasks"
     }
   }
 }

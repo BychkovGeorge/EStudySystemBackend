@@ -81,6 +81,10 @@
     "surname": {
       "type": "string",
       "required": true
+    },
+    "portfolios": {
+      "via": "users_permissions_user",
+      "collection": "portfolio"
     }
   }
 }
