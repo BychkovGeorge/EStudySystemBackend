@@ -85,6 +85,10 @@
     "portfolios": {
       "via": "users_permissions_user",
       "collection": "portfolio"
+    },
+    "study_materials": {
+      "via": "users_permissions_user",
+      "collection": "study-materials"
     }
   }
 }

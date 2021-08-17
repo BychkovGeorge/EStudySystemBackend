@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/study-materials",
+      "handler": "study-materials.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/study-materials/count",
+      "handler": "study-materials.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/study-materials/:id",
+      "handler": "study-materials.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/study-materials",
+      "handler": "study-materials.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/study-materials/:id",
+      "handler": "study-materials.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/study-materials/:id",
+      "handler": "study-materials.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
